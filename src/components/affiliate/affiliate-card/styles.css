@@ -1,0 +1,130 @@
+.affiliate__card {
+    border-radius: 12px;
+    border: 1px solid #1E1A34;
+    background: #FFF;
+    padding: 20px 24px 24px;
+}
+
+.affiliate__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #1E1A34;
+}
+
+.affiliate__info span {
+   text-align: start;
+}
+
+.affiliate__level {
+    color: #1E1A34;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.affiliate__one {
+    color: #474359;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.affiliate__one b {
+    border-radius: 20px;
+    background: #D4C4F1;
+    font-weight: 500;
+    padding: 0 4px;
+}
+
+.affiliate__one span {
+    border-radius: 20px;
+    background: #D6D6DA;
+    padding: 0 4px;
+}
+
+.comission__text {
+    color: #474359;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.07px;
+    margin: 20px 0 8px;
+    display: flex;
+}
+
+.commission__input{
+    border-radius: 8px;
+    border: 1px solid #C0BFC6;
+    background: #FFF;
+    max-width: 108px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+
+    color: #1E1A34;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.08px;
+    padding-left: 20px;
+}
+
+.commission__percentage {
+    color: #1E1A34;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 108px;
+    align-items: center;
+    position: relative;
+}
+
+.percentage__text {
+    border-radius: 4px;
+    background: #EEEEED;
+    padding: 12px;
+}
+
+.percentage__icon {
+    position: absolute;
+    right: -20px;
+}
+
+.affiliate__message {
+    display: flex;
+    padding: 4px 4px 4px 12px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 32px;
+    background: #D4C4F1;
+    height: 28px;
+}
+
+.affiliate-tag,
+.level-tag {
+    border-radius: 20px;
+    background: #FFF;
+    padding: 0 4px;
+}
+
+.commission__info {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
